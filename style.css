@@ -1,0 +1,174 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: white;
+    font-family: "Inter", sans-serif;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.bg{
+    position: relative;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    background: #ffffff;
+    align-items: center;
+    justify-content: center;
+}
+.main{
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(270deg, rgba(255, 255, 255, 0.82) 0%, rgba(188, 199, 87, 1) 50%, rgba(188, 83, 237, 1) 100%);
+}
+
+.page1{
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.302);
+    transform: rotate(0.006turn);
+    height: 500px;
+    width: 800px;
+    border-radius: 20px;
+}
+
+.page{
+    position: absolute;
+    background-color: #f0e8e3e0;
+    height: 500px;
+    width: 800px;
+    border-radius: 20px;
+}
+
+.page nav{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 36px;
+    padding: 40px 100px;
+    background: transparent;
+
+
+
+}
+nav h1{
+    background: transparent;
+    font-size: 20px;
+}
+
+span{
+    color: rgb(219, 133, 57);
+    background: transparent;
+}
+
+nav i{
+    background: transparent;
+    position: absolute;
+    margin-left: 270px;
+}
+
+nav button{
+    padding: 6px 15px;
+    border-radius: 20px;
+    font-size: 11px;
+    margin-left: 160px;
+    background: transparent;
+    border: 1.5px solid rgba(164, 164, 164, 0.721);
+}
+
+nav h4{
+    background: transparent;
+    font-size: 11px;
+}
+
+.content{
+    height: calc(100% - 107.6px);
+    border-radius: 20px;
+    width: 100%;
+    background: transparent;
+    /* background-color: lightcoral; */
+    display: flex;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+    gap: 30px;
+    height: 100%;
+    border-bottom-left-radius: 20px;
+    width: 100%;
+    background: transparent;
+    /* background-color: rgb(128, 229, 240); */
+}
+
+.left h1{
+    font-size: 42.8px;
+    background: transparent;
+}
+
+.left p{
+    font-size: 10px;
+    background: transparent;
+}
+
+
+.right{
+    height: 80%;
+    border-bottom-right-radius: 20px;
+    width: 80%;
+    background: transparent;
+}
+
+.right img{
+    background: transparent;
+    height: 100%;
+    width: 100%;
+}
+
+.gradient{
+    position: absolute;
+    height: 270px;
+    width: 330px;
+    border-radius: 50%;
+    top: -50px;
+    left: -80px;
+    background-color: rgb(225, 159, 159);
+    filter: blur(90px);
+    overflow: hidden;
+}
+
+.link{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: transparent;
+}
+
+.link a{
+    padding: 2px;
+    font-size: 11px;
+    background: transparent;
+    text-decoration: none;
+    border: 2px solid gray;
+    border-radius: 20px;
+}
+
+.link button{
+    padding: 6px 15px;
+    border-radius: 20px;
+    font-size: 11px;
+    background-color: rgb(37, 81, 178);
+    color: white;
+    border: none;
+}
+
+.link i{
+    background: transparent;
+}
